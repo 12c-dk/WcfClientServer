@@ -28,7 +28,7 @@ Open Windows settings > Programs & features > Visual studio > Modify > Individua
 
 ## Configuration
 
-During the step "Create a client" when generating the proxy class file, the svcutil.exe can be invoked like this from command prompt (cmd) (When using Windows 11 SDK and .NET Framework 4.6.2) 
+During the step "Create a client" when generating the proxy class file, the svcutil.exe can be invoked like this from command prompt (cmd). This path is valid When using Windows 11 SDK and .NET Framework 4.6.2. 
 
 ```cmd
 "c:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.2 Tools\SvcUtil.exe" /language:cs /out:generatedProxy.cs /config:app.config http://localhost:8000/GettingStarted/CalculatorService
@@ -41,7 +41,7 @@ During the step "Create a client" when generating the proxy class file, the svcu
 
 - Set GettingStartedClient as startup project. 
 
-- Set breakpoint in GettingStartedLib/Service1.cs. 
+- Set breakpoint (e.g. in GettingStartedLib/Service1.cs)
 
 - Hit F5 to debug
 
