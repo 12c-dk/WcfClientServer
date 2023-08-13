@@ -13,17 +13,17 @@ GettingStartedClient--TCP port 8000-->GettingStartedHost
 
 - Visual studio. I used Visual studio 2022, but other versions should work as well.
 
-- Visual studio feature "Windows Communication Foundation" must be installed. ()
+- Visual studio feature "Windows Communication Foundation" must be installed.
 
 Open Windows settings > Programs & features > Visual studio > Modify > Individual components > Windows Communication Foundation
 
-![](Images\WCFFeatureInstall.png)
+![](Images/WCFFeatureInstall.png)
 
 - .NET Framework 4.6.2. (Windows settings > Programs & features > Visual studio > Modify > Individual components)
 
 - Windows SDK must be installed. I have Windows 11 SDK, but others can be used as well. This contains SvcUtil.exe that is used to generate proxy code. Path to SvcUtil for Windows 11 SDK: c:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.2 Tools\SvcUtil.exe
 
-![](Images\WindowsSdkComponent.png)
+![](Images/WindowsSdkComponent.png)
 
 
 ## Configuration
@@ -52,7 +52,7 @@ Exception: "There was no endpoint listening at  http://localhost:8000/GettingSta
 
 WCF Service host shows following error message: 
 
-![](Images\CantConnect.png)
+![](Images/CantConnect.png)
 
 Reason: Visual studio needs to be started in administrator mode.
 
